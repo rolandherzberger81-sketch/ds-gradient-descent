@@ -1,0 +1,13 @@
+[project]
+name = "ds-gradient-descent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "scikit-learn>=1.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
